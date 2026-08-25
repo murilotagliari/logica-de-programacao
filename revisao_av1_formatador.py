@@ -1,8 +1,8 @@
 # ==============================================================================
 # REVISAO PARA A AV1: MODULARIZACAO E MANIPULACAO DE STRINGS
 # ARQUIVO: revisao_av1_formatador.py
-# Nome do Aluno:
-# Data:
+# Nome do Aluno: murilo tagliari
+# Data: 25/08
 # ==============================================================================
 
 def formatar_citacao(nome_completo):
