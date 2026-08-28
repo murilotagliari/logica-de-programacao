@@ -1,0 +1,30 @@
+# ==============================================================================
+# PROVA PRÁTICA AV1 - 3º BIMESTRE
+# ARQUIVO: av1_saneamento_dados.py
+# Nome do Aluno: murilo tagliari
+# Data: 28/08/2026
+# ==============================================================================
+
+cadastros_brutos = [
+   "  joao da silva;11988887777  ",
+   "  maria sousa;21977776666  ",
+   "  carlos edgardo oliveira;31966665555  ",
+   "  ana paula lima;41955554444  "
+]
+
+print("==================================================")
+print("     SISTEMA DE SANEAMENTO DE DADOS - AV1         ")
+print("==================================================\n")
+
+for i in range(len(cadastros_brutos)):
+   
+   cadastro = cadastros_brutos[i].strip()
+   nome, telefone = cadastro.split(";")
+   nome = nome.upper()
+   ddd = telefone[0:2]
+  
+   print(f"Funcionario: {nome} | DDD: {ddd} | Telefone: {telefone}")
+
+print("\n==================================================")
+print("             PROCESSAMENTO CONCLUÍDO              ")
+print("==================================================")
