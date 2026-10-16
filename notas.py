@@ -8,7 +8,7 @@ print("Segunda nota (indice 1):", notas[1])
 print("Terceira nota (indice 2):", notas[2])
 print("Quarta nota (indice 3):", notas[3])
 print("-" * 40)
-total_elementos = 1en(notas)
+total_elementos = len(notas)
 print("Quantidade total de elementos:", total_elementos)
 
 ultimo_indice = total_elementos - 1
